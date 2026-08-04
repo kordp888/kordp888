@@ -16,7 +16,7 @@ My mission is to **make AI accessible to everyone** — seniors, children, multi
 | Project | What it proves | Status |
 |---|---|---|
 | 🚀 [**Signal Crew**](https://github.com/kordp888/signal-crew) | I ship. AI-native SaaS unifying work · collaboration · finance for small teams | iOS released · Google Play in review |
-| ❤️ [**다시ON5060**](https://github.com/kordp888/dasi-on5060) | Why I build. AI accessibility for Koreans in their 50s–60s — my mission flagship | Problem discovery → MVP |
+| ❤️ [**다시ON5060**](https://github.com/kordp888/dasi-on5060) | Why I build. AI accessibility for Koreans in their 50s–60s — my mission flagship | **MVP live** — [try it](https://dasion-app.vercel.app) |
 | 🧠 [**LLM Wiki**](https://github.com/kordp888/llm-wiki) | I build systems. 24/7 knowledge production with local sLLMs + agents | Running 24/7 |
 
 ## How I Build
