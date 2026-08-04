@@ -1,4 +1,4 @@
-# Derrick Hwang (황석하)
+# Derrick Hwang
 
 ### AI Native Product Builder
 
@@ -40,7 +40,7 @@ Local models I run: Qwen · Gemma · Granite · EXAONE · DeepSeek
 <details>
 <summary>🇰🇷 한국어 소개</summary>
 
-**AI Native Product Builder 황석하입니다.**
+**AI Native Product Builder Derrick Hwang입니다.**
 
 답이 있어서 만들지 않습니다. "왜?"라는 질문이 멈추지 않아서 만듭니다.
 
