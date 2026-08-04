@@ -1,4 +1,4 @@
-# Hwang Sukha (황석하)
+# Derrick Hwang (황석하)
 
 ### AI Native Product Builder
 
