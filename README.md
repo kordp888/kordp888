@@ -15,7 +15,7 @@ My mission is to **make AI accessible to everyone** — seniors, children, multi
 
 | Project | What it proves | Status |
 |---|---|---|
-| 🚀 [**Signal Crew**](https://github.com/kordp888/signal-crew) | I ship. AI-native SaaS unifying work · collaboration · finance for small teams | iOS released · Google Play in review |
+| 🚀 [**Signal Crew**](https://github.com/kordp888/signal-crew) | I ship. AI-native SaaS unifying work · collaboration · finance for small teams | iOS beta (TestFlight) · [시그널크루.com](https://xn--2i0bs2de2jevkc6q.com) |
 | ❤️ [**다시ON5060**](https://github.com/kordp888/dasi-on5060) | Why I build. AI accessibility for Koreans in their 50s–60s — my mission flagship | **MVP live** — [try it](https://dasion-app.vercel.app) |
 | 🧠 [**LLM Wiki**](https://github.com/kordp888/llm-wiki) | I build systems. 24/7 knowledge production with local sLLMs + agents | Running 24/7 |
 
@@ -46,7 +46,7 @@ Local models I run: Qwen · Gemma · Granite · EXAONE · DeepSeek
 
 미션은 **AI를 누구나 사용할 수 있게 만드는 것** — 시니어, 아이들, 다문화 가정, 비개발자까지. 기술이 사람에게 맞춰야 합니다.
 
-- **Signal Crew** — 실행력의 증명 (업무·협업·재무 통합 AI SaaS, iOS 배포)
+- **Signal Crew** — 실행력의 증명 (업무·협업·재무 통합 AI SaaS, iOS 베타)
 - **다시ON5060** — 미션의 증명 (5060 세대를 위한 AI 접근성)
 - **LLM Wiki** — 시스템 사고의 증명 (sLLM 기반 24시간 지식 생산)
 
