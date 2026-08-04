@@ -33,7 +33,7 @@ Local models I run: Qwen · Gemma · Granite · EXAONE · DeepSeek
 
 ## Links
 
-- 🌐 Portfolio: (link coming with deploy)
+- 🌐 Portfolio: [kordp888.github.io/portfolio](https://kordp888.github.io/portfolio/)
 
 ---
 
