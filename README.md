@@ -1,79 +1,47 @@
-# Derrick Hwang
+<p align="center">
+  <img src="./docs/hero.png" alt="Derrick Hwang, 제품 6개를 만들고 시스템으로 증명합니다">
+</p>
 
-### AI Native Product Manager
+<h1 align="center">Derrick Hwang</h1>
 
-> **Why comes first. Building comes next.**
+<p align="center">
+  <strong>AI Native Product Manager</strong><br>
+  검증된 문제를 배포 가능한 제품과 반복 가능한 시스템으로 바꿉니다.
+</p>
 
-I don't build products because I have answers.
-I build them because I keep asking **"Why?"**
+<p align="center">
+  <a href="https://kordp888.github.io/portfolio/">Portfolio</a>
+  ·
+  <a href="https://github.com/kordp888?tab=repositories">Public repositories</a>
+</p>
 
-My mission is to **make AI accessible to everyone** — seniors, children, multicultural families, non-technical users. Technology should adapt to people, not the other way around.
+## 제품으로 증명합니다
 
----
+기술보다 사용자의 문제를 먼저 정의합니다. 문제 발견, 제품 설계, 프로덕션 배포,
+운영 검증을 하나의 루프로 연결합니다.
 
-## What I'm Building
-
-| Project | What it proves | Status |
+| 제품 | 해결하는 문제 | 공개된 증거 |
 |---|---|---|
-| 🚀 [**Signal Crew**](https://github.com/kordp888/signal-crew) | I ship. AI-native SaaS unifying work · collaboration · finance for small teams | iOS beta (TestFlight) · [시그널크루.com](https://xn--2i0bs2de2jevkc6q.com) |
-| ❤️ [**다시ON5060**](https://github.com/kordp888/dasi-on5060) | Why I build. AI accessibility for Koreans in their 50s–60s — my mission flagship | **MVP live** — [try it](https://dasion-app.vercel.app) |
-| 🧠 [**LLM Wiki**](https://github.com/kordp888/llm-wiki) | I build systems. 24/7 knowledge production with local sLLMs + agents | Running 24/7 |
+| [다시ON5060](https://github.com/kordp888/dasi-on5060) | 디지털 환경이 낯선 사용자가 음성으로 묻고 지금 할 한 단계만 안내받습니다. | [Live MVP](https://dasion-app.vercel.app)와 음성 응답 설계 |
+| [Signal Crew](https://github.com/kordp888/signal-crew) | 일, 협업, 재무를 하나의 제품 경험으로 연결합니다. | 웹과 iOS 베타를 같은 소스에서 운영하며 회귀 심볼 21종을 커밋 전에 검사합니다. |
+| [LLM Wiki](https://github.com/kordp888/llm-wiki) | 로컬 sLLM과 에이전트가 지식을 생산하고 사람이 최종 판단합니다. | 유닛테스트 739개와 사람 승인 게이트 |
+| [ONDA](https://github.com/kordp888/ONDA-for-Tesla-showcase) | Tesla 차량 브라우저에서 터치 부담을 줄이는 음성 우선 주행 경험을 제공합니다. | 커뮤니티 글 49건을 분석하고 기획부터 프로덕션 배포까지 1일 |
 
-## How I Find Problems
+## 제품 운영 원칙
 
-Product work starts before the first screen. My discovery loop:
+- **Why first:** 기능 목록보다 해결할 문제와 반증 조건을 먼저 정합니다.
+- **Accessibility by design:** 사용자가 기술에 맞추는 대신 기술이 사용자에게 맞춥니다.
+- **Evidence in the loop:** 측정과 테스트를 배포 이후의 일이 아니라 제품의 일부로 설계합니다.
+- **Human-gated AI:** 모델은 초안을 만들고 최종 판단은 사람이 내립니다.
 
-1. **Live with the problem** — 다시ON5060 began from watching people in their 50s–60s get structurally excluded by "digital-native-only" AI interfaces, not from a market report.
-2. **Interrogate the Why until it stops moving** — if the answer changes when I ask twice, it isn't the real problem yet.
-3. **Define what would prove me wrong** — every build gets falsifiable checkpoints before it gets features.
-4. **Measure from day one** — GA4/GTM event design ships with the MVP, not after it. Decisions follow real usage, not opinions.
-5. **Gate everything through humans** — in my automation systems, model output approves nothing; people do. The same principle guides my product process: validation beats generation.
+## 작업 방식
 
-## Signature Strengths — VIA Character Survey
+`문제 발견 → 핵심 가치 → 제품 명세 → AI 가속 개발 → 배포 → 측정 → 자동화 → 지식 축적`
 
-Top 5 of 24 ([VIA Institute](https://www.viacharacter.org), 2026):
+배포된 제품 6개에서 얻은 학습을 다음 제품의 시작점으로 사용합니다.
 
-| # | Strength | How it shows up in product work |
-|---|---|---|
-| 1 | **Purpose** (영성 · 목적의식) | Mission-first roadmaps — I can say no to features that don't serve the Why |
-| 2 | **Creativity** (창의성) | Never satisfied with the default approach when a better one is thinkable |
-| 3 | **Curiosity** (호기심) | Endless questions — the engine behind user research and problem discovery |
-| 4 | **Excellence** (심미안) | I notice the gap between "works" and "excellent" — and close it |
-| 5 | **Zest** (열정) | Nothing halfway. Every project gets full commitment |
+## 기술과 도구
 
-## How I Build
+`Product Discovery` `PRD` `OKR` `User Research` `Analytics` `GTM` `Figma`
 
-Problem discovery → Why & core value → MVP/OKR → PRD → AI-accelerated build (Google AI Studio · Claude Code · Antigravity · Codex) → deploy (iOS/Web) → measure (GA4 · GTM) → automate (Hermes Agent) → accumulate knowledge (sLLM · LLM Wiki)
-
-**14 steps. One loop. Every product.** Engineering is my acceleration layer — it exists so product decisions ship the same week they're made.
-
-## Toolbox
-
-**Product:** `Problem Discovery` `PRD · OKR` `GA4 · GTM` `Figma` `User Research`
-**Build acceleration:** `AI Agents` `Agent Orchestration` `LLM Applications` `Local LLM (sLLM)` `MCP` `Python` `Firebase` `Supabase` `Vercel`
-
-Local models I run: Qwen · Gemma · EXAONE · DeepSeek
-
-## Links
-
-- 🌐 Portfolio: [kordp888.github.io/portfolio](https://kordp888.github.io/portfolio/)
-
----
-
-<details>
-<summary>🇰🇷 한국어 소개</summary>
-
-**AI Native Product Manager Derrick Hwang입니다.**
-
-답이 있어서 만들지 않습니다. "왜?"라는 질문이 멈추지 않아서 만듭니다.
-
-미션은 **AI를 누구나 사용할 수 있게 만드는 것** — 시니어, 아이들, 다문화 가정, 비개발자까지. 기술이 사람에게 맞춰야 합니다.
-
-- **문제 발견** — 리서치 보고서가 아니라 실제 사용자를 관찰하는 데서 시작합니다 (다시ON5060)
-- **검증 우선** — 만들기 전에 "무엇이 나를 틀렸다고 증명할 수 있는가"를 먼저 정의합니다
-- **측정 내장** — GA4/GTM 이벤트 설계를 MVP와 함께 배포합니다
-- **개발 역량은 가속 레이어** — 결정한 것을 그 주에 배포하기 위해 존재합니다
-
-VIA 성격강점 Top 5: 목적의식 · 창의성 · 호기심 · 심미안 · 열정
-
-</details>
+`AI Agents` `Local LLM` `MCP` `Python` `Firebase` `Supabase` `Vercel`
