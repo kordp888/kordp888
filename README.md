@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/hero.png" alt="Derrick Hwang, 제품 6개를 만들고 시스템으로 증명합니다">
+  <img src="./docs/hero.png" alt="Derrick Hwang, 제품과 운영 시스템을 실측 결과로 증명합니다">
 </p>
 
 <h1 align="center">Derrick Hwang</h1>
@@ -22,11 +22,11 @@
 
 | 제품 | 해결하는 문제 | 공개된 증거 |
 |---|---|---|
-| LLM 콘텐츠 파이프라인 | LLM이 만든 금융 콘텐츠를 원본 데이터와 기계적으로 대조해 통과한 것만 배포합니다. | 검사 7종과 회귀 테스트 3,344건, 채널 4개 누적 319건 |
+| LLM 콘텐츠 자동화 워크플로우 | 시장 데이터 수집부터 원고, 음성, 영상, 검수까지 연결하고 불일치가 있는 결과는 배포 단계로 넘기지 않습니다. | 차단 검사 7종, 채널 4개, 누적 319건 운영 |
+| [LLM Wiki](https://github.com/kordp888/llm-wiki) | 로컬 sLLM과 에이전트가 지식을 생산하고 사람이 최종 판단합니다. | 유닛테스트 750개 전부 통과, 사람 승인 게이트 3지점 |
+| [ONDA](https://github.com/kordp888/ONDA-for-Tesla-showcase) | Tesla 차량 브라우저에서 지도, 주행 장면, 정차 경험을 한 화면에 제공합니다. | 커뮤니티 글 49건 분석, 테스트 203개 전부 통과, 음성 권리 증거가 없으면 릴리스 차단 |
 | [다시ON5060](https://github.com/kordp888/dasi-on5060) | 디지털 환경이 낯선 사용자가 음성으로 묻고 지금 할 한 단계만 안내받습니다. | [Live MVP](https://dasion-app.vercel.app)와 음성 응답 설계 |
 | [Signal Crew](https://github.com/kordp888/signal-crew) | 일, 협업, 재무를 하나의 제품 경험으로 연결합니다. | 웹과 iOS 베타를 같은 소스에서 운영하며 회귀 심볼 21종을 커밋 전에 검사합니다. |
-| [LLM Wiki](https://github.com/kordp888/llm-wiki) | 로컬 sLLM과 에이전트가 지식을 생산하고 사람이 최종 판단합니다. | 유닛테스트 750개 전부 통과, 사람 승인 게이트 3지점 |
-| [ONDA](https://github.com/kordp888/ONDA-for-Tesla-showcase) | Tesla 차량 브라우저에서 터치 부담을 줄이는 음성 우선 주행 경험을 제공합니다. | 커뮤니티 글 49건을 분석하고 기획부터 프로덕션 배포까지 1일 |
 
 ## 제품 운영 원칙
 
