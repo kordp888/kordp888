@@ -22,9 +22,9 @@
 
 | 제품 | 해결하는 문제 | 공개된 증거 |
 |---|---|---|
-| LLM 콘텐츠 자동화 워크플로우 | 시장 데이터 수집부터 원고, 음성, 영상, 검수까지 연결합니다. 현재 자동 업로드 경로에서 출처 불일치와 안전 위반은 배포를 차단합니다. | 대표 검증 범주 7개, 채널 4개, 2026-09-01 운영 기록 기준 누적 게시 319건 |
-| [LLM Wiki](https://github.com/kordp888/llm-wiki) | 지식 수집·정리·승인 흐름을 로컬로 설계하고, 사람 승인 전에는 다음 단계로 보내지 않습니다. | 비공개 운영 원본의 테스트 750건 통과(2026-09-06), 사람 승인 지점 3곳 |
-| [ONDA](https://github.com/kordp888/ONDA-for-Tesla-showcase) | Tesla 차량 브라우저에서 지도, 주행 장면, 정차 경험을 한 화면에 제공합니다. | 커뮤니티 글 49건 분석, 실차 GPS·음성 실패를 회귀 테스트로 고정, 음성 권리 증빙 전 빌드 차단 |
+| LLM 콘텐츠 자동화 워크플로우 | 시장 데이터 수집부터 원고, 음성, 영상, 검수까지 연결합니다. 현재 자동 업로드 경로에서 출처 불일치와 안전 위반은 배포를 차단합니다. | [합성 입력으로 검증한 차단 상태 전이](https://github.com/kordp888/portfolio/tree/main/evidence/content_automation), 대표 검증 범주 7개, 채널 4개, 2026-09-01 운영 기록 기준 누적 게시 319건 |
+| [LLM Wiki](https://github.com/kordp888/llm-wiki) | 지식 수집·정리·승인 흐름을 로컬로 설계하고, 사람 승인 전에는 다음 단계로 보내지 않습니다. | [가산 전용 동기화 공개 검증](https://github.com/kordp888/portfolio/tree/main/evidence/llm_wiki), 비공개 운영 원본의 테스트 750건 통과(2026-09-06), 사람 승인 지점 3곳 |
+| [ONDA](https://github.com/kordp888/ONDA-for-Tesla-showcase) | Tesla 차량 브라우저에서 지도, 주행 장면, 정차 경험을 한 화면에 제공합니다. | [센서 시각 폴백 공개 검증](https://github.com/kordp888/portfolio/tree/main/evidence/onda), 커뮤니티 글 49건 분석, 실차 GPS·음성 실패를 회귀 테스트로 고정, 음성 권리 증빙 전 빌드 차단 |
 | [다시ON5060](https://github.com/kordp888/dasi-on5060) | 디지털 환경이 낯선 사용자가 음성으로 묻고 지금 할 한 단계만 안내받습니다. | [Live MVP](https://dasion-app.vercel.app)와 음성 응답 설계 |
 | [Signal Crew](https://github.com/kordp888/signal-crew) | 일, 협업, 재무를 하나의 제품 경험으로 연결합니다. | 웹과 iOS 베타를 같은 소스에서 운영하며 회귀 심볼 21종을 커밋 전에 검사합니다. |
 
