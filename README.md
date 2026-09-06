@@ -22,11 +22,20 @@
 
 | 제품 | 해결하는 문제 | 공개된 증거 |
 |---|---|---|
-| LLM 콘텐츠 자동화 워크플로우 | 시장 데이터 수집부터 원고, 음성, 영상, 검수까지 연결합니다. 현재 자동 업로드 경로에서 출처 불일치와 안전 위반은 배포를 차단합니다. | [합성 입력으로 검증한 차단 상태 전이](https://github.com/kordp888/portfolio/tree/main/evidence/content_automation), 대표 검증 범주 7개, 채널 4개, 2026-09-01 운영 기록 기준 누적 게시 319건 |
+| LLM 콘텐츠 자동화 워크플로우 | 시장 데이터 수집부터 원고, 음성, 영상, 검수까지 연결합니다. 현재 자동 업로드 경로에서 출처 불일치와 안전 위반은 배포를 차단합니다. | [합성 입력으로 검증한 차단 상태 전이](https://github.com/kordp888/portfolio/tree/main/evidence/content_automation), [공개 품질 게이트 모듈](https://github.com/kordp888/llm-quality-gates), 대표 검증 범주 7개, 채널 4개, 2026-09-01 운영 기록 기준 누적 게시 319건 |
 | [LLM Wiki](https://github.com/kordp888/llm-wiki) | 지식 수집·정리·승인 흐름을 로컬로 설계하고, 사람 승인 전에는 다음 단계로 보내지 않습니다. | [가산 전용 동기화 공개 검증](https://github.com/kordp888/portfolio/tree/main/evidence/llm_wiki), 비공개 운영 원본의 테스트 750건 통과(2026-09-06), 사람 승인 지점 3곳 |
 | [ONDA](https://github.com/kordp888/ONDA-for-Tesla-showcase) | Tesla 차량 브라우저에서 지도, 주행 장면, 정차 경험을 한 화면에 제공합니다. | [센서 시각 폴백 공개 검증](https://github.com/kordp888/portfolio/tree/main/evidence/onda), 커뮤니티 글 49건 분석, 실차 GPS·음성 실패를 회귀 테스트로 고정, 음성 권리 증빙 전 빌드 차단 |
 | [다시ON5060](https://github.com/kordp888/dasi-on5060) | 디지털 환경이 낯선 사용자가 음성으로 묻고 지금 할 한 단계만 안내받습니다. | [Live MVP](https://dasion-app.vercel.app)와 음성 응답 설계 |
-| [Signal Crew](https://github.com/kordp888/signal-crew) | 일, 협업, 재무를 하나의 제품 경험으로 연결합니다. | 웹과 iOS 베타를 같은 소스에서 운영하며 회귀 심볼 21종을 커밋 전에 검사합니다. |
+| [Signal Crew](https://github.com/kordp888/signal-crew) | 일, 협업, 재무를 하나의 제품 경험으로 연결합니다. | 공개 제품 화면, 웹·iOS 공유 구조, 커밋 전 품질 검사 |
+| 세이프체크 | 메신저 보안 서비스를 비교하고 사용 상황에 맞는 선택을 돕습니다. | 5인 팀 PM 리드, 사용자 테스트에서 백신 앱으로 오해하는 문제를 확인하고 첫 화면을 재설계, v5에서 v7까지 반복 |
+| 린온 | 아이가 전래동화 인물과 음성으로 대화하며 말하기를 연습합니다. | [Live demo](https://lean-on-goodquestion.vercel.app), 4~8세 어휘 게이트와 3단 폴백 설계 |
+
+## 공개 도구
+
+| 도구 | 용도 |
+|---|---|
+| [LLM Quality Gates](https://github.com/kordp888/llm-quality-gates) | 콘텐츠 출처와 안전 조건을 배포 전에 검사하는 공개 모듈 |
+| [AI Tell Removal](https://github.com/kordp888/ai-tell-removal) | 반복되는 기계적 문장 패턴을 찾는 CLI |
 
 ## 제품 운영 원칙
 
