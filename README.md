@@ -14,6 +14,7 @@
 | WESOP · ShopSol FLEX | 근무 공백 확인, 후보 비교, 제안과 관리자 확정 | [교육용 프로토타입](https://wesop-shopsol-prototype.vercel.app/), 합성 데이터, 사용자 가설 미검증 |
 | ONDA | 차량 브라우저에서 시작하는 음성 중심 경험 | 선별한 화면과 설계 의도 |
 | 다시ON5060 | 디지털 서비스가 낯선 사용자의 다음 행동 | 음성 질문과 생활 과제 화면 |
+| AI Career Insight Coach | 직무 이해와 실제 경험을 잇는 커리어 인사이트 발견 | [공개 저장소](https://github.com/kordp888/career-insight-coach), 제품 개요·템플릿·가상 예시 |
 | 콘텐츠 자동화 | 생성한 콘텐츠의 검수와 실패 상태 확인 | 운영 방식의 개요 |
 | LLM Wiki | 결정 기록과 참고자료의 실제 재사용 | 문맥 선택 검증 요약 |
 | Signal Crew | 할 일과 진행 상태의 가시성 | 제품 소개 |
