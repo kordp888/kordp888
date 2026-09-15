@@ -3,7 +3,7 @@
 ### AI Product Builder
 
 사용자가 다음 행동을 찾는 화면부터 실패를 확인하는 운영 흐름까지.
-기획, 구현, 검증을 이어가는 황석하입니다.
+기획, 구현, 검증을 이어가는 데릭황입니다.
 
 [개인 포트폴리오](https://kordp888.github.io/portfolio/) · [공개 사례 모음](https://github.com/kordp888/portfolio) · [검증 범위](https://github.com/kordp888/portfolio/blob/main/VERIFICATION.md)
 
