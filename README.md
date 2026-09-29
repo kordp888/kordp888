@@ -14,13 +14,16 @@
 | WESOP · ShopSol FLEX | 근무 공백 확인, 후보 비교, 제안과 관리자 확정 | [교육용 프로토타입](https://wesop-shopsol-prototype.vercel.app/), 합성 데이터, 사용자 가설 미검증 |
 | ONDA | 차량 브라우저에서 시작하는 음성 중심 경험 | 선별한 화면과 설계 의도 |
 | 다시ON5060 | 디지털 서비스가 낯선 사용자의 다음 행동 | 음성 질문과 생활 과제 화면 |
-| AI Career Insight Coach | 직무 이해와 실제 경험을 잇는 커리어 인사이트 발견 | [공개 저장소](https://github.com/kordp888/career-insight-coach), 제품 개요·템플릿·가상 예시 |
+| AI Career Insight Coach | 직무 이해와 실제 경험을 잇는 커리어 인사이트 발견 | [웹앱](https://career-insight-coach.vercel.app), [공개 저장소](https://github.com/kordp888/career-insight-coach). AI 분석은 로컬 모델에서 실행 |
+| 프랜차이즈 운영 AI 도우미 | 관리자 화면에서 매뉴얼·리뷰·점검을 묻고 공지 초안을 승인 | [사례 문서와 화면](https://github.com/kordp888/portfolio/tree/main/projects/franchise-agent), 합성·더미 데이터, 고객사 비공개 |
 | 콘텐츠 자동화 | 생성한 콘텐츠의 검수와 실패 상태 확인 | 운영 방식의 개요 |
 | LLM Wiki | 결정 기록과 참고자료의 실제 재사용 | 문맥 선택 검증 요약 |
 | Signal Crew | 할 일과 진행 상태의 가시성 | 제품 소개 |
 | career-docs | 공고마다 반복되는 서류 작업과 매일 바뀌는 수치 | [공개 저장소](https://github.com/kordp888/career-docs-skill), 도구 5종, Apache-2.0 |
 
 ## 검증 기록
+
+2026-09-29 기준 두 제품에 합성 페르소나 UT를 돌렸습니다. 커리어 코치는 25종 시나리오를 끝까지 돌려 자동 점검이 놓친 결함 유형 7종을 찾아 보정했습니다. 재검증은 4종, 6회 실행에 그쳤습니다. 프랜차이즈 운영 AI 도우미는 질문 44개의 정답이 30개에서 41개로, 수정에 쓰지 않은 12개에서는 7개에서 9개로 늘었습니다. 둘 다 실사용자는 0명입니다. 프랜차이즈 도우미는 로컬 모델과 외부 API 모두 채택 기준(사실 누락 0, 6초 이내)을 넘지 못해 규칙 엔진으로 운영합니다.
 
 2026-09-09 기준 WESOP 보관 QA 기록은 단위·빌드 검사 58개, 공개 HTTPS 브라우저 검사 278개 통과입니다. 실제 사용자 참여자는 0명이며 물리 기기 검사는 미실행입니다. 기술 검사 결과를 채용 성과나 사용자 가설의 입증으로 바꾸지 않습니다.
 
