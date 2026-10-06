@@ -14,7 +14,7 @@ Forward Deployed Engineering · Python / LLM / API / Next.js
 
 이전 경력은 골드문파트너스 Founder & CEO, 코네 팀장·데이터분석, JW투자진흥원 팀장·고객관리 및 데이터분석, 채움 팀장·광고기획입니다. FDE는 현재 집중하는 직무입니다.
 
-[포트폴리오](https://kordp888.github.io/portfolio/) · [공개 이력서](https://kordp888.github.io/portfolio/assets/resume/황석하_FDE_이력서_20261006.pdf) · [LinkedIn](https://www.linkedin.com/in/derrick-hwang-846477422/)
+[포트폴리오](https://kordp888.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/derrick-hwang-846477422/)
 
 ## English
 
