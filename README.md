@@ -1,40 +1,23 @@
 # Derrick Hwang
 
-### AI Product Builder
+Forward Deployed Engineering · Python / LLM / API / Next.js
 
-사용자가 다음 행동을 찾는 화면부터 실패를 확인하는 운영 흐름까지.
-기획, 구현, 검증을 이어가는 데릭황입니다.
+광고 사업 창업과 고객관리·데이터분석 경험을 바탕으로 고객 업무를 이해하고, 구현할 문제와 범위를 정합니다. 직접 만든 결과물과 사용자 피드백으로 다음 수정을 결정합니다.
 
-[개인 포트폴리오](https://kordp888.github.io/portfolio/) · [공개 사례 모음](https://github.com/kordp888/portfolio) · [검증 범위](https://github.com/kordp888/portfolio/blob/main/VERIFICATION.md)
+## 대표 작업
 
-## 만드는 제품
-
-| 프로젝트 | 다루는 문제 | 공개 범위 |
+| 문제 | 직접 구현·협의한 것 | 확인 결과·공개 자료 |
 |---|---|---|
-| WESOP · ShopSol FLEX | 근무 공백 확인, 후보 비교, 제안과 관리자 확정 | [교육용 프로토타입](https://wesop-shopsol-prototype.vercel.app/), 합성 데이터, 사용자 가설 미검증 |
-| ONDA | 차량 브라우저에서 시작하는 음성 중심 경험 | 선별한 화면과 설계 의도 |
-| 다시ON5060 | 디지털 서비스가 낯선 사용자의 다음 행동 | 음성 질문과 생활 과제 화면 |
-| AI Career Insight Coach | 직무 이해와 실제 경험을 잇는 커리어 인사이트 발견 | [웹앱](https://career-insight-coach.vercel.app), [공개 저장소](https://github.com/kordp888/career-insight-coach). AI 분석은 로컬 모델에서 실행 |
-| 프랜차이즈 운영 AI 도우미 | 관리자 화면에서 매뉴얼·리뷰·점검을 묻고 공지 초안을 승인 | [사례 문서와 화면](https://github.com/kordp888/portfolio/tree/main/projects/franchise-agent), 합성·더미 데이터, 고객사 비공개 |
-| 콘텐츠 자동화 | 생성한 콘텐츠의 검수와 실패 상태 확인 | 운영 방식의 개요 |
-| LLM Wiki | 결정 기록과 참고자료의 실제 재사용 | 문맥 선택 검증 요약 |
-| Signal Crew | 할 일과 진행 상태의 가시성 | 제품 소개 |
-| career-docs | 공고마다 반복되는 서류 작업과 매일 바뀌는 수치 | [공개 저장소](https://github.com/kordp888/career-docs-skill), 도구 5종, Apache-2.0 |
+| 반복되는 콘텐츠 제작과 원본 대조 | Python·LLM·음성·영상·비공개 업로드 연결, 개인 구현·운영 | 2026.09.09 정리한 과거 집계: 정시 파이프라인 업로드 게이트 도달 225건 중 37건 차단. [사례](https://kordp888.github.io/portfolio/#content-automation). 정확도·오류 탐지율·효율 개선률은 아니며 이번에 원시 로그를 재집계하지 않았습니다. |
+| WESOP 업무 흐름의 AI Agent 적용 범위 | SeSAC 기업 연계 프로젝트의 프로토타입·MVP·데이터/API 접근 조건 협의 | 프로토타입·연동 요구사항 설계. [공개 화면](https://wesop-shopsol-prototype.vercel.app/). 합성 데이터이며 상용 연동·실데이터 접근 완료를 뜻하지 않습니다. |
+| 사용자가 AI의 경험 해석을 검토하는 과정 | Career Insight Coach, Next.js·TypeScript 구현과 Vercel 배포 | 확인·수정 화면. 현재 초대 코드가 필요한 [베타 웹](https://career-insight-coach.vercel.app/). 저장·가져오기·내보내기·오류는 확인·개선 중입니다. |
 
-## 검증 기록
+이전 경력은 골드문파트너스 Founder & CEO, 코네 팀장·데이터분석, JW투자진흥원 팀장·고객관리 및 데이터분석, 채움 팀장·광고기획입니다. FDE는 현재 집중하는 직무입니다.
 
-2026-09-29 기준 두 제품에 합성 페르소나 UT를 돌렸습니다. 커리어 코치는 25종 시나리오를 끝까지 돌려 자동 점검이 놓친 결함 유형 7종을 찾아 보정했습니다. 재검증은 4종, 6회 실행에 그쳤습니다. 프랜차이즈 운영 AI 도우미는 질문 44개의 정답이 30개에서 41개로, 수정에 쓰지 않은 12개에서는 7개에서 9개로 늘었습니다. 둘 다 실사용자는 0명입니다. 프랜차이즈 도우미는 로컬 모델과 외부 API 모두 채택 기준(사실 누락 0, 6초 이내)을 넘지 못해 규칙 엔진으로 운영합니다.
+[포트폴리오](https://kordp888.github.io/portfolio/) · [공개 이력서](https://kordp888.github.io/portfolio/assets/resume/황석하_FDE_이력서_20261006.pdf) · [LinkedIn](https://www.linkedin.com/in/derrick-hwang-846477422/)
 
-2026-09-09 기준 WESOP 보관 QA 기록은 단위·빌드 검사 58개, 공개 HTTPS 브라우저 검사 278개 통과입니다. 실제 사용자 참여자는 0명이며 물리 기기 검사는 미실행입니다. 기술 검사 결과를 채용 성과나 사용자 가설의 입증으로 바꾸지 않습니다.
+## English
 
-운영 도구의 로컬 테스트는 113개 통과했습니다. 개별 제품 전체의 검사 수와 구분하며, 자세한 범위는 공개 검증 요약에 남깁니다.
+I understand customer workflows, define a workable scope, build prototypes and verify outputs. My background includes founding an advertising business, customer operations and data analysis. I am pursuing Forward Deployed Engineer roles; this does not rename my past positions.
 
-정시 파이프라인 기준으로 업로드 게이트 도달 225건 중 37건을 배포 직전에 차단했습니다. 차단율 16.4%이고 그중 사실 오류가 10건입니다. 막았는데 정상이던 건수, 즉 오탐률은 기록이 없어 세지 못했습니다.
-
-여기 적은 숫자는 서로 다른 시스템을 잰 것이라 더하지 않습니다. 전체 목록과 각 수치의 범위·제외 조건은 [숫자 한눈에](https://github.com/kordp888/portfolio/tree/main/evidence#숫자-한눈에)에 있습니다.
-
-## 작업 방식
-
-해결할 문제와 관찰할 결과부터 정합니다. 작은 동작을 만들고 확인한 결과에 맞춰 제품을 수정합니다. 제품 기획, 사용자 흐름, 음성 UX, AI 파이프라인과 품질 검증을 함께 다룹니다.
-
-제품 소스, 프롬프트, 내부 설계와 원본 자료는 비공개입니다. 공개 포트폴리오는 소개, 선별한 화면, 검증 요약으로 구성하고 이전 구현 저장소의 이력을 가져오지 않았습니다.
+Selected work: a Python/LLM workflow for YouTube multichannel production and verification; a WESOP industry collaboration prototype and integration requirements; and Career Insight Coach, a Next.js/TypeScript web prototype deployed on Vercel. Career Insight Coach currently requires an invitation code. Public materials describe the scope and limitations. Source code, internal prompts and raw company or user records remain private.
